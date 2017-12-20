@@ -22,7 +22,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                build 'ManavAWS/Repo2/master'
+                build 'GithubORG/Repo2/master'
         }
     }
 }
