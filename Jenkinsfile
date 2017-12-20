@@ -22,9 +22,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                sh 'ls'
-                sh 'pwd'
-            }
+                build 'ManavAWS/Repo2/master'
         }
     }
 }
