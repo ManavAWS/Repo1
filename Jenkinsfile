@@ -23,7 +23,8 @@ pipeline {
         stage('Deploy') {
             steps {
                 build 'GithubORG/Repo2/master'
-        }
+            }
+          }
     }
 }
-}
+
